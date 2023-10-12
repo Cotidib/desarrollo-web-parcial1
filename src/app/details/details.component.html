@@ -1,0 +1,8 @@
+<button type="button" (click)="goBack()" class="btn btn-primary">Volver</button>
+
+<div *ngIf="player">
+  <p>{{player.nombre}}</p>
+  <p>{{player.posicion}}</p>
+  <img src={{player.foto}} width="100px">
+</div>
+
